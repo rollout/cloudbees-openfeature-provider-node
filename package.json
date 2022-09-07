@@ -1,0 +1,71 @@
+{
+  "name": "cloudbees-openfeature-provider-node",
+  "version": "0.0.1",
+  "description": "An OpenFeature provider for CloudBees Feature Management",
+  "author": "Rollout.io <support@cloudbees.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://www.cloudbees.com/products/feature-management",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rollout/cloudbees-openfeature-provider-node"
+  },
+  "bugs": {
+    "url": "https://github.com/rollout/cloudbees-openfeature-provider-node/issues",
+    "email": "support@cloudbees.com"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "openfeature",
+    "feature-flag",
+    "feature-flags",
+    "rollout",
+    "rox",
+    "flags",
+    "flag",
+    "configuration",
+    "remote-control",
+    "rollout.io",
+    "cloudbees"
+  ],
+  "scripts": {
+    "test": "jest --verbose",
+    "lint": "eslint ./",
+    "clean": "rm -fr ./dist",
+    "type": "tsc --project tsconfig.json --declaration --emitDeclarationOnly",
+    "build:esm": "esbuild ./src/index.ts --bundle --sourcemap --target=es2016 --platform=node --format=esm --outfile=./dist/esm/index.js --analyze",
+    "build:cjs": "esbuild ./src/index.ts --bundle --sourcemap --target=es2016 --platform=node --format=cjs --outfile=./dist/cjs/index.js --analyze",
+    "build": "npm run clean && npm run type && npm run build:esm && npm run build:cjs",
+    "postbuild": "cp ./package.esm.json ./dist/esm/package.json",
+    "current-version": "echo $npm_package_version"
+  },
+  "ROX": {
+    "api_version": "1.9.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "dependencies": {
+    "@openfeature/nodejs-sdk": "^0.3.1",
+    "@types/rox-node": "^5.0.1",
+    "rox-node": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "esbuild": "^0.15.1",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-check-file": "^1.2.1",
+    "eslint-plugin-jest": "^27.0.1",
+    "jest": "^28.1.0",
+    "jest-junit": "^14.0.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
