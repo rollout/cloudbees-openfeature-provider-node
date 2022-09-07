@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: feature-management-ci-agent
+spec:
+  containers:
+    - name: server
+      image: node:14.20
+      command:
+      tty: true

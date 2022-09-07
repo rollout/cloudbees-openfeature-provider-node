@@ -105,3 +105,6 @@ dist
 
 # IDEs
 .idea/
+
+# test results
+junit.xml
