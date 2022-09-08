@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "An OpenFeature provider for CloudBees Feature Management",
   "author": "Rollout.io <support@cloudbees.com>",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "Apache 2.0",
   "homepage": "https://www.cloudbees.com/products/feature-management",
   "repository": {
     "type": "git",
