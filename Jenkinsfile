@@ -32,5 +32,13 @@ pipeline {
         }
       }
     } // end stage("End Build code")
+    stage("Release") {
+      when {
+        buildingTag()
+      }
+      steps {
+        echo 'Building a tag'
+      }
+    } // end Release
   } // end stages
 } // end pipeline
