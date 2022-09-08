@@ -11,7 +11,7 @@ pipeline {
       // it also calculates global var env.BUILDNUM
       agent {
         kubernetes {
-          label 'lint-ejs-' + UUID.randomUUID().toString()
+          label 'build-' + UUID.randomUUID().toString()
           inheritFrom 'default'
           yamlFile './cbci-templates/fmforci.yaml'
         }
@@ -23,7 +23,7 @@ pipeline {
                 yarn lint
                 yarn build
                 yarn test
-              """, label: "yarn lint code"
+              """, label: "yarn lint, build and test"
         } //end container
       } //end step
       post {
@@ -36,8 +36,22 @@ pipeline {
       when {
         buildingTag()
       }
+      agent {
+        kubernetes {
+          label 'release-' + UUID.randomUUID().toString()
+          inheritFrom 'default'
+          yamlFile './cbci-templates/fmforci.yaml'
+        }
+      }
       steps {
-        echo 'Building a tag'
+        container(name: "server", shell: 'sh') {
+          withCredentials([string(credentialsId: 'NPM-OpenFeature-publish-token', variable: 'TOKEN')]) {
+            sh script : """
+              npm set //registry.npmjs.org/:_authToken=${TOKEN}
+              yarn publish
+            """, label: "publish to npmjs.org"
+          }
+        } //end container
       }
     } // end Release
   } // end stages
