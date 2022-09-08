@@ -3,7 +3,7 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![a](https://img.shields.io/badge/slack-%40cncf%2Fopenfeature-brightgreen?style=flat&logo=slack)](https://cloud-native.slack.com/archives/C0344AANLA1)
 [![OpenFeature Specification](https://img.shields.io/static/v1?label=OpenFeature%20Specification&message=v0.4.0&color=yellow)](https://github.com/open-feature/spec/tree/v0.4.0)
-[![OpenFeature SDK](https://badge.fury.io/js/@openfeature%2Fnodejs-sdk.svg)](https://badge.fury.io/js/@openfeature%2Fnodejs-sdk)
+[![OpenFeature SDK](https://img.shields.io/static/v1?label=OpenFeature%20Node%20SDK&message=v0.3.1&color=green)](https://github.com/open-feature/node-sdk/tree/v0.3.1)
 [![npm version](https://badge.fury.io/js/cloudbees-openfeature-provider-node.svg)](https://badge.fury.io/js/cloudbees-openfeature-provider-node)
 [![CloudBees Rox SDK](https://img.shields.io/static/v1?label=Rox%20SDK&message=v5.4.1&color=green)](https://www.npmjs.com/package/rox-node)
 [![Known Vulnerabilities](https://snyk.io/test/github/rollout/cloudbees-openfeature-provider-node/badge.svg)](https://snyk.io/test/github/rollout/cloudbees-openfeature-provider-node)
