@@ -31,7 +31,7 @@ yarn add cloudbees-openfeature-provider-node
 
 ### Configuration
 
-Follow the instructions on the [Java SDK project](https://github.com/open-feature/java-sdk) for how to use the Java SDK.
+Follow the instructions on the [Node SDK project](https://github.com/open-feature/node-sdk) for how to use the Node SDK.
 
 You can configure the CloudBees provider by doing the following:
 
