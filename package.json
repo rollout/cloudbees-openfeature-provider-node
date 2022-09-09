@@ -48,12 +48,12 @@
   ],
   "dependencies": {
     "@openfeature/nodejs-sdk": "^0.3.1",
-    "@types/rox-node": "^5.0.1",
     "rox-node": "^5.4.2"
   },
   "devDependencies": {
     "@types/jest": "^28.1.4",
     "@types/node": "^18.7.16",
+    "@types/rox-node": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "esbuild": "^0.15.1",
