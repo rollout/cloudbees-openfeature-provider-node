@@ -48,6 +48,9 @@ pipeline {
           withCredentials([string(credentialsId: 'NPM-OpenFeature-publish-token', variable: 'TOKEN')]) {
             sh script : """
               npm set //registry.npmjs.org/:_authToken=${TOKEN}
+              # can we get this from the above without rebuilding?
+              yarn --frozen-lockfile
+              yarn build
               yarn publish
             """, label: "publish to npmjs.org"
           }
