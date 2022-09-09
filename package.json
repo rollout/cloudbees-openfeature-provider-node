@@ -1,6 +1,6 @@
 {
   "name": "cloudbees-openfeature-provider-node",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An OpenFeature provider for CloudBees Feature Management",
   "author": "Rollout.io <support@cloudbees.com>",
   "license": "Apache 2.0",
