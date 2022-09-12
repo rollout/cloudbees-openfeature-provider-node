@@ -620,9 +620,9 @@
     fastq "^1.6.0"
 
 "@openfeature/nodejs-sdk@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@openfeature/nodejs-sdk/-/nodejs-sdk-0.3.1.tgz#413b61d96459cb3787c026ea9e76366b5bd9be97"
-  integrity sha512-KhiOYC/HVFDj98sOL3qv+hcSliyklT5eCPnrDiHlAIdpJedkMOzEiKj4jA9hNh5b3rj5kVCPuqA931QoOGSH1A==
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@openfeature/nodejs-sdk/-/nodejs-sdk-0.3.2.tgz#a0989bc210c0a013016ad5236bdcdfb3aa4f1cfd"
+  integrity sha512-KvkpTsgY+5AnceBYBeV6Mme7mrIAitFrpGQ4cDV3nOm1BJIzjJ07UPbgYFhHr2qEMe+BiX1qWbl28BW+9RJHwQ==
 
 "@sinclair/typebox@^0.24.1":
   version "0.24.38"
