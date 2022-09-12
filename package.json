@@ -49,13 +49,6 @@
   "files": [
     "dist/"
   ],
-  "exports": {
-    "node": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js",
-      "default": "./dist/esm/index.js"
-    }
-  },
   "dependencies": {
     "@openfeature/nodejs-sdk": "^0.3.1",
     "rox-node": "^5.4.2"
