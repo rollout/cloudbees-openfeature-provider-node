@@ -40,7 +40,7 @@ import {OpenFeature} from '@openfeature/nodejs-sdk';
 import {CloudbeesProvider} from 'cloudbees-openfeature-provider-node'
 
 const appKey = 'INSERT_APP_KEY_HERE'
-OpenFeature.setProvider(CloudbeesProvider.build(appKey));
+OpenFeature.setProvider(await CloudbeesProvider.build(appKey));
 const client = OpenFeature.getClient();
 const value = await client.getBooleanValue('enabled-new-feature', false);
 ```
