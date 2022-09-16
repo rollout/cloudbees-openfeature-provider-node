@@ -105,6 +105,7 @@ dist
 
 # IDEs
 .idea/
+.iml
 
 # test results
 junit.xml
