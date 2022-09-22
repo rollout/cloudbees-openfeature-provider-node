@@ -619,10 +619,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@openfeature/nodejs-sdk@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@openfeature/nodejs-sdk/-/nodejs-sdk-0.3.1.tgz#413b61d96459cb3787c026ea9e76366b5bd9be97"
-  integrity sha512-KhiOYC/HVFDj98sOL3qv+hcSliyklT5eCPnrDiHlAIdpJedkMOzEiKj4jA9hNh5b3rj5kVCPuqA931QoOGSH1A==
+"@openfeature/js-sdk@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@openfeature/js-sdk/-/js-sdk-0.4.0.tgz#6ec5ae1c3d8b81cd7a6aa88ade5e6be6bc1c8272"
+  integrity sha512-tfZNxg7QCKIVDrBRktIaqnphANXloyHSZJs2weumXRF6e1OiTSVTbnPtYZZCr15PMiIzEQUQheulloTepLzAmA==
 
 "@sinclair/typebox@^0.24.1":
   version "0.24.38"

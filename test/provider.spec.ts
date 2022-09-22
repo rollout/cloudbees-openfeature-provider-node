@@ -1,5 +1,5 @@
 import {CloudbeesProvider} from '../src'
-import {Client, OpenFeature} from '@openfeature/nodejs-sdk'
+import {Client, OpenFeature} from '@openfeature/js-sdk'
 
 describe('Cloudbees Provider', () => {
   it('invalid creation', async () => {
