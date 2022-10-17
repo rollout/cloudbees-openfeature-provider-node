@@ -1,4 +1,4 @@
-import {EvaluationContext, JsonValue, Provider, ResolutionDetails} from '@openfeature/js-sdk'
+import {EvaluationContext, InvalidContextError, JsonValue, Provider, ResolutionDetails} from '@openfeature/js-sdk'
 import Rox, {RoxSetupOptions} from 'rox-node'
 
 /**
@@ -34,6 +34,5 @@ export class CloudbeesProvider implements Provider {
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   resolveObjectEvaluation<T extends JsonValue>(flagKey: string, defaultValue: T, context: EvaluationContext): Promise<ResolutionDetails<T>> {
-    return Promise.reject('Not implemented - CloudBees feature management does not support an object type. Only String, Number and Boolean')
-  }
+    return Promise.reject(new InvalidContextError('Not implemented - CloudBees feature management does not support an object type. Only String, Number and Boolean'))  }
 }
