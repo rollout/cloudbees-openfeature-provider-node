@@ -72,8 +72,8 @@ describe('Cloudbees Provider', () => {
     describe('object flags', () => {
       it('test we do not support these types of flag', async () => {
         await expect(client.getObjectDetails('not-supported', {a: 'b'})).resolves.toEqual({
-          errorCode: 'GENERAL_ERROR',
-          flagKey: 'not-supported',
+          errorCode: 'INVALID_CONTEXT',
+          errorMessage: 'Not implemented - CloudBees feature management does not support an object type. Only String, Number and Boolean',          flagKey: 'not-supported',
           reason: 'ERROR',
           value: {a: 'b'},
         })
