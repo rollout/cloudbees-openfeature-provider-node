@@ -29,6 +29,16 @@ or
 yarn add cloudbees-openfeature-provider-node
 ```
 
+### Confirm peer dependencies are installed
+```bash
+npm install @openfeature/js-sdk
+```
+or
+```bash
+yarn add @openfeature/js-sdk
+```
+
+
 ### Configuration
 
 Follow the instructions on the [Javascript SDK project](https://github.com/open-feature/js-sdk) for how to use the Javascript SDK.
