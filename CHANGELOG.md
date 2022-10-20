@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://github.com/rollout/cloudbees-openfeature-provider-node/compare/v0.5.1...v1.0.0) (2022-10-20)
+
+
+### Miscellaneous Chores
+
+* Update readme as well ([06c9a5a](https://github.com/rollout/cloudbees-openfeature-provider-node/commit/06c9a5ac7fa92b9193aa5a6112aab6e773e60aee))
+
 ## [0.5.1](https://github.com/rollout/cloudbees-openfeature-provider-node/compare/v0.1.0...v0.5.1) (2022-10-17)
 
 
