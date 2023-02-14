@@ -62,7 +62,7 @@
     "@types/rox-node": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
-    "esbuild": "^0.15.1",
+    "esbuild": "^0.17.8",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-check-file": "^1.2.1",
