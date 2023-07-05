@@ -65,7 +65,7 @@
     "esbuild": "^0.15.1",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-check-file": "^1.2.1",
+    "eslint-plugin-check-file": "^2.5.0",
     "eslint-plugin-jest": "^27.0.2",
     "jest": "^28.1.0",
     "jest-junit": "^14.0.1",
