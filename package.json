@@ -58,7 +58,7 @@
   "devDependencies": {
     "@openfeature/js-sdk": "^1.0.0",
     "@types/jest": "^28.1.4",
-    "@types/node": "^18.7.16",
+    "@types/node": "^20.4.6",
     "@types/rox-node": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
