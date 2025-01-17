@@ -50,7 +50,7 @@
     "dist/"
   ],
   "dependencies": {
-    "rox-node": "^5.4.2"
+    "rox-node": "^6.0.1"
   },
   "peerDependencies": {
     "@openfeature/js-sdk": "^1.0.0"
