@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1](https://github.com/rollout/cloudbees-openfeature-provider-node/compare/v1.0.0...v1.0.1) (2025-01-22)
+
+
+### Features
+
+* Add possibility for OpenFeature provider to connect with CBP as well ([1898dec](https://github.com/rollout/cloudbees-openfeature-provider-node/commit/1898dec1eb85179156b0e3e2d41ae4b55c0e12bc))
+
+
+### Miscellaneous Chores
+
+* release 1.0.1 ([8ba0422](https://github.com/rollout/cloudbees-openfeature-provider-node/commit/8ba04227b39ffceb9b1075c39ece94c25f4d6246))
+
 ## [1.0.0](https://github.com/rollout/cloudbees-openfeature-provider-node/compare/v0.5.1...v1.0.0) (2022-10-20)
 
 
